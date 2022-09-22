@@ -21,7 +21,7 @@
      console.log('MongoDB connected!');
  
     //  await connectRedis();
-     console.log('Redis connected!');
+    //  console.log('Redis connected!');
    } catch (error: any) {
      console.log(`An error has occured with one of the DBs: ${error.message}`);
    }
