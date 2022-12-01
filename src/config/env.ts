@@ -27,7 +27,7 @@
 //  ));
  
  export const db_url = <string>(
-    'mongodb+srv://emedics:emedics@cluster0.eztorra.mongodb.net/test'
+    process.env.MONGO_URI
 //    (env === 'prod' ? process.env.DB : process.env.DEV_DB)
  );
  
